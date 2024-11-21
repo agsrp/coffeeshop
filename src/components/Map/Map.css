@@ -1,0 +1,29 @@
+.mapSeccion{
+    background-image: url(./map.webp);
+    width: 100%;
+    background-color: #cccccc;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+    margin: 15px;
+}
+
+.btnMap {
+    background-color: #b6a07c;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btnMap a{
+    color: #060505;
+    text-decoration: none;
+    font-weight: 700;
+}

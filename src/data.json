@@ -1,0 +1,50 @@
+{ "products":[
+    {
+        "id": 1,
+        "name": "Cafe Arequito",
+        "price": 10000,
+        "img": "/CafeArequito.webp",
+        "category": "Brasil",
+        "quanty": 1
+    },
+    {
+        "id": 2,
+        "name": "Cafe Kerren",
+        "price": 15000,
+        "img": "/CafeKerren.webp",
+        "category": "Etiopia",
+        "quanty": 1
+    },
+    {
+        "id": 3,
+        "name": "Cafe Tolhuin",
+        "price": 10000,
+        "img": "/CafeTolhuin.webp",
+        "category": "Colombia",
+        "quanty": 1
+    },
+    {
+        "id": 4,
+        "name": "Cafe Sierra",
+        "price": 8000,
+        "img": "/CafeSierra.webp",
+        "category": "Bolivia",
+        "quanty": 1
+    },
+    {
+        "id": 5,
+        "name": "Cafe Yuchan",
+        "price": 15000,
+        "img": "/CafeYuchan.webp",
+        "category": "Brasil",
+        "quanty": 1
+    },
+    {
+        "id": 6,
+        "name": "Cafe Muyoj",
+        "price": 11000,
+        "img": "/CafeMuyoj.webp",
+        "category": "Colombia",
+        "quanty": 1
+    }
+]}

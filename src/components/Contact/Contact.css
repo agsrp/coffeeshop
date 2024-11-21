@@ -1,0 +1,83 @@
+.btnRedesCont{
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnRedesCont a{
+    text-align: center;
+    background: #172554;
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    color: #fffbeb;
+    padding: 15px;
+    border-radius: 30px;
+    outline: none;
+    align-items: center;
+}
+
+.contSecCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+    margin: 50px 0px;
+}
+
+.ContenidoContacto{
+    margin: 40px;
+}
+
+.formCont{
+    width: 200px;
+    height: auto;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titForm{
+    font-weight: 600;
+}
+
+.formCont .nombreEmail{
+    text-align: center;
+    padding: 10px 5px;
+    border: none;
+    width: 250px;
+    height: 20px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.formCont .mensajeCont{
+    padding: 10px 5px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 150px;
+}
+
+.formCont .btnEnviarCont{
+    padding: 10px 20px;
+    border: none;
+    background-color: #dadbcd;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btnRedesCont{
+    margin: 40px;
+}

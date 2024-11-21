@@ -1,0 +1,79 @@
+.containerCards{
+    margin-top: 150px;
+}
+
+.contentCart{
+    background-color: #dadbcd;
+    margin: 20px;
+    padding: 15px 0px;
+    border-radius: 15px;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trashItem{
+    color: #060505;
+    cursor: pointer;
+}
+
+.increDecre{
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.decre, .incre{
+    cursor: pointer;
+}
+
+.totalCart{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contCartVacio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+.verProVacio{
+    padding: 10px 20px;
+    color: #060505;
+    background-color: #b6a07c;
+    font-weight: 700;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.carVacio{
+    text-align: center;
+}
+
+.imgCart{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.cantPro{
+    font-weight: 700;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+@media (max-width: 768px){
+    .contentCart{
+        flex-direction: column;
+    }
+
+    .trashItem{
+        margin: 30px;
+    }
+}

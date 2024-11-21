@@ -1,0 +1,23 @@
+.verMasCards{
+    margin: 15px;
+    background-color: #b6a07c;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #060505;
+    font-weight: 700;
+}
+
+.cardsProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

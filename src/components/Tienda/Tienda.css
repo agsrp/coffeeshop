@@ -1,0 +1,55 @@
+
+.pantallaTienda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnBuy:hover{
+    background-color: #dadbcd;
+}
+
+.btnOrder{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #dadbcd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnOrder:focus{
+    background-color: #b6a07c;
+}
+
+.contTienda{
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    display: flex;
+    margin: 50px;
+    margin-top: 150px;
+}
+
+.contBtnyCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerCardsProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 430px){
+    
+}
+
